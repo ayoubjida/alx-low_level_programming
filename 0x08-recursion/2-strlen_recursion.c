@@ -2,9 +2,9 @@
 
 
 /**
- * _print_rev_recursion - reverse
+ * _strlen_recursion - size
  * @s: pointer to string params
- *
+ * Return: recursion
  */
 
 
