@@ -15,7 +15,7 @@ int divisors(int n, int m)
 	}
 	else if (m / 2 > n)
 	{
-		return (divisor(n + 2, m));
+		return (divisors(n + 2, m));
 	}
 	else
 	{
@@ -38,6 +38,6 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		return (divisor(3, n));
+		return (divisors(3, n));
 	}
 }
